@@ -20,9 +20,9 @@
  	<!-- Load properties files -->
     <context:property-placeholder location="classpath*:*.properties" />
     
-    <bean class="com.up.employeedelight.controller.ReportController" >
+<!--     <bean class="com.up.employeedelight.controller.ReportController" >
     	<property name="reportFolderPath" value="${reports.path}"></property>
-    </bean>
+    </bean> -->
     
 
 </beans>
